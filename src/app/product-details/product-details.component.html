@@ -1,0 +1,20 @@
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title> {{ currentProduct.name }} </mat-card-title>
+    <mat-card-subtitle> {{ currentProduct.category }} </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <img
+      mat-card-image
+      src="{{ currentProduct.imgPath }}"
+      alt="Product Image"
+    />
+    <p>{{ currentProduct.description }}</p>
+    <p>Price: {{ currentProduct.price | currency }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button routerLink="..">Back</button>
+    <button routerLink="../edit/{{ currentProduct.id }}">Edit</button>
+    <button (click)="deleteProduct(currentProduct.id)">Delete</button>
+  </mat-card-actions>
+</mat-card>

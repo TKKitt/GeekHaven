@@ -1,0 +1,27 @@
+.navbar img {
+    height: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgb(59, 58, 58);
+    background-color: var(--secondary-color);
+}
+
+.navbar * {
+    display: inline;
+}
+
+.navbar li {
+    margin: 20px;
+}
+
+.navbar li a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: var(--quaternary-color);
+}

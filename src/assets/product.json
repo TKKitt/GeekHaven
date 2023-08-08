@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "Headphones",
+      "name": "Apple - AirPods Pro",
+      "imgPath": "assets/images/product1.jpg",
+      "price": 199.99,
+      "description": " AirPods Pro feature up to 2x more Active Noise Cancellation,¹ plus Adaptive Transparency, and Personalized Spatial Audio with dynamic head tracking for immersive sound.² Now with multiple ear tips (XS, S, M, L) and up to 6 hours of listening time."
+    },
+    {
+      "id": 2,
+      "category": "Video Games",
+      "name": "Sony - PlayStation 5 Console",
+      "imgPath": "assets/images/product2.jpg",
+      "price": 499.99,
+      "description": "The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio*, and an all-new generation of incredible PlayStation games. *3D audio via built-in TV speakers or analog/USB stereo headphones. Set up and latest system software update required. "
+    },
+    {
+      "id": 3,
+      "category": "Laptops",
+      "name": "Lenovo - Ideapad 3i 15.6",
+      "imgPath": "assets/images/product3.jpg",
+      "price": 399.99,
+      "description": " The ultimate Smart Learning notebook, the Lenovo IdeaPad 3i pairs 11th Generation Intel Core i5 processors with tailored work and learn from home solutions that address eye strain, posture problems and at-home distractions, while deploying intelligent thermals for a cool and whisper-quiet system. The new privacy shutter on the camera also lets you reserve complete control over your privacy in the home and beyond."
+    },
+    {
+      "id": 4,
+      "category": "Wearable Technology",
+      "name": "Apple Watch Ultra (GPS + Cellular)",
+      "imgPath": "assets/images/product4.jpg",
+      "price": 799,
+      "description": "The most rugged and capable Apple Watch ever, designed for exploration, adventure, and endurance. With a 49mm aerospace-grade titanium case, extra-long battery life,¹ specialized apps that work with the advanced sensors, and a new customizable Action button. See Dimension section below for band sizing information."
+    },
+    {
+      "id": 5,
+      "category": "Wearable Technology",
+      "name": "WHOOP - 4.0 Health and Fitness Tracker",
+      "imgPath": "assets/images/product5.jpg",
+      "price": 239,
+      "description": " Available for NEW members, WHOOP is a wearable health & fitness coach that keeps track of everything from your sleep patterns to your exercise habits to not just track what you did, but tells you what to do next. WHOOP coaches you through your day with recommendations based on your unique physiology, whether that’s recommending when to go to bed or how much exertion you should take on to meet your fitness goals. Purchase includes an initial 12 month WHOOP membership, 4.0 hardware, onyx SuperKnit band, and wearable + waterproof* battery pack. WHOOP also comes with 24/7 customer service and a warranty in order to make it a worry-free purchase. At the end of your 12 months, you can renew your membership via the WHOOP app."
+    },
+    {
+      "id": 6,
+      "category": "Wearable Technology",
+      "name": "Samsung - Galaxy Watch 5 Pro Titanium Smart Watch",
+      "imgPath": "assets/images/product6.jpg",
+      "price": 499.99,
+      "description": "Take on your ultimate adventure with Galaxy Watch5 Pro¹. It’s our most advanced outdoor watch yet, featuring a 2x stronger⁵ Sapphire Crystal Glass display. Power through intense activities, even with GPS on, with a long-lasting battery. Stay on the right trail even in unfamiliar terrain thanks to voice or vibration guided turn-by-turn navigation⁹. Push your body further with accurate sensors that help keep a closer eye on your heart rate³, and BIA² measurements that help you track your physique. Get the rest you need to stay energized on your journeys with Advanced Sleep Coaching¹. Look sharp on every expedition with bands and watch faces that you can match to any outfit. Plus, pair your watch with the rest of your Galaxy for a connected network of devices that work together to help go stronger and harder than ever before. Whether you’re hiking, kayaking or camping, get ready to take it to the extreme with Galaxy Watch5 Pro."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.card {
+    margin: 30px;
+    background-color: var(--secondary-color);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 350px;
+    height: 400px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    transition: 400ms;
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: center;
+}
+
+mat-card-actions button{
+    width: 50%;
+    background-color: var(--quinary-color);
+    color: var(--quaternary-color);
+    margin: 5px;
+}
+
+mat-card-actions button:hover {
+    background-color: var(--quaternary-color);
+    color: var(--quinary-color);
+}

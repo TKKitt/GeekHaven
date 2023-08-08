@@ -1,0 +1,23 @@
+<h1>All Products</h1>
+<div class="gallery">
+  <div *ngFor="let product of productList">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>
+          {{ product.name }}
+        </mat-card-title>
+        <mat-card-subtitle> {{ product.category }} </mat-card-subtitle>
+      </mat-card-header>
+      <img
+        mat-card-image
+        src="{{ product.imgPath }}"
+        alt="{{ product.name }}"
+      />
+      <mat-card-actions>
+        <button mat-button routerLink="{{ product.id }}">View</button>
+        <button routerLink="edit/{{ product.id }}">Edit</button>
+        <button (click)="deleteProduct(product.id)">Delete</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
